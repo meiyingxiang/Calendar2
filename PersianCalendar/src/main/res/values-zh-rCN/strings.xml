@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="code">zh</string>
+
+    <!--Global-->
+    <string name="app_name">Persian Calendar</string>
+    <string name="widget_name">Persian Calendar</string>
+    <string name="widget_mini_name">Persian Calendar (mini)</string>
+    <string name="closeDrawer">关</string>
+    <string name="openDrawer">开</string>
+    <string name="accept">OK</string>
+    <string name="add">增加</string>
+    <string name="help">帮助</string>
+    <string name="more">更多</string>
+    <string name="cancel">取消</string>
+    <string name="continue_button">继续</string>
+
+    <string name="outdated_app">过时导致不准确</string>
+    <string name="update">更新</string>
+
+    <!-- No need for translation, remove the section from your translation -->
+    <string name="about_developers_list" translatable="false">"ebraminio: Ebrahim Byagowi
+hamidsafdari: Hamid Safdari
+behdad222: Behdad Abedi
+HrBDev: Hamidreza Bayat
+alirezaafkar: Alireza Afkar
+MEHDIMYADI: Mehdi Dimyadi
+runo280: Ruhollah Nosrati
+FtADev: Fatemeh Akhlaghi
+MasoodFallahpoor: Masood Fallahpoor"</string>
+    <string name="about_designers_list" translatable="false">"MEHDIMYADI: Mehdi Dimyadi
+MehraraAbedi: Mehrara Abedi
+behdude: Behdad Pournader
+ImanSoltanian: Iman Soltanian"</string>
+    <string name="about_translators_list" translatable="false">"yethrosh: Muhammad Shuaib
+LordArma: Alireza Moayed Ahmadi
+Matjafari: Mahdieh Jafari
+raminjavadi: Ramin Javadi"</string>
+    <string name="about_contributors_list" translatable="false">"La-Volpe: Javad Arjmandi
+mehdisadeghi: Mehdi Sadeghi
+abbas-oveissi: Abbas Oveissi
+aysha319: Aysha Aminnejad
+Tenkei: Keivan Esbati
+mohamadhadibi: Mohammad Hadi
+alirezaivaz: Alireza Ivaz
+AminBakhtiyari: Amin Bakhtiyari"</string>
+
+    <string name="about_help_subtitle" translatable="false">此版本的年份%s-%s。</string>
+    <string name="about_help_sum" translatable="false">“为了确保程序的适宜性，需要在年前几个月交付，如果程序仍在开发中，请提供程序，因为在版本发布之前，程序套装都是可用的该国没有规定新的官方日历。如果在您使用该程序的年份继续开发，建议您注意其他资源的假期安全。太阳系被正式应用多年，但它可能不是正式的，或者在你在日历上看到的那一年。
+这个项目的安排是在伊朗和阿富汗进行的。它可能在其他国家不被使用，但社区受到不同方式的保护。这样，您就可以通过设置自己的首选项对其进行自定义。
+访问设置了状态栏的位置。如果要将位置从一个城市更改为另一个城市，则需要随时更改。
+gamma日历可能有问题，因此您可能需要手动调整它。这些解决方案，包括通过开发本方案而引起的互联网日常分歧，并非出于接入互联网的需要，而开发该方案的目标也不是尽可能地接入互联网。
+没有保证在正确的应用，只是尽量提供一个有用的程序。众所周知，没有软件，没有软件，没有算法是损坏的，你可能需要检查与其他来源的程序。程序可能无法更新报纸上的月数，因为机器的容量很低。建议您取消具有额外内存的其他程序，或禁用公告磁带选项，或测试其他程序。
+程序的选择是只包括10月的前四个月，但您可以轻松地在设备的设置中选择警报声。
+这个日历是在没有财务优势的情况下，在下面提到的人员和软件库的帮助下设计的，以便有用，并与GPL许可证版本3一起发布。它是。
+GPL许可证意味着只有当代码被更改并添加到项目中是免费发布的情况下，才能使用此程序的代码。他们将。选择是使用相同的编码，并根据本项目中使用的许可证在非文本程序中使用此程序的代码，尤其是GPL库。如果使用GPL代码和库，则需要指定页面的源和权限。
+你在伊朗观众中有台词。http://kurdistan.irib.ir道歉信存放在伊朗议会的“祝贺船”上："</string>
+    <string name="capricorn_emoji" translatable="false">♑</string>
+    <string name="aquarius_emoji" translatable="false">♒</string>
+    <string name="pisces_emoji" translatable="false">♓</string>
+    <string name="aries_emoji" translatable="false">♈</string>
+    <string name="taurus_emoji" translatable="false">♉</string>
+    <string name="gemini_emoji" translatable="false">♊</string>
+    <string name="cancer_emoji" translatable="false">♋</string>
+    <string name="leo_emoji" translatable="false">♌</string>
+    <string name="virgo_emoji" translatable="false">♍</string>
+    <string name="libra_emoji" translatable="false">♎</string>
+    <string name="scorpio_emoji" translatable="false">♏</string>
+    <string name="sagittarius_emoji" translatable="false">♐</string>
+    <string name="not_set_time" translatable="false">--:--</string>
+
+    <!--Navigation drawers-->
+    <string name="calendar">日历</string>
+    <string name="date_converter">数据转换器</string>
+    <string name="compass">指南针</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+
+    <string name="changeLanguage">修改语言?</string>
+
+    <!--Calendar-->
+    <string name="add_event">添加事件</string>
+    <string name="device_calendar_does_not_support">"设备日历不支持该操作"</string>
+    <string name="today">今天</string>
+    <string name="return_to_today">回到今天</string>
+    <string name="goto_date">转到上次</string>
+    <string name="go">Go</string>
+
+    <string name="search_in_events">在事件中搜索</string>
+
+    <string name="date_diff_text">距: %1$s 天 (~%2$s 年 %3$s 月 %4$s 天)</string>
+    <string name="start_of_year_diff">%1$s 天 (~%2$s 周 or %3$s 月) 从年初开始</string>
+    <string name="end_of_year_diff">%1$s 天 (~%2$s 周 or %3$s 月) 到年底</string>
+    <string name="date_copied_clipboard">"%1$s“复制到剪贴板。</string>
+    <string name="year_name">年份</string>
+    <string name="year1">猴</string>
+    <string name="year2">鸡</string>
+    <string name="year3">狗</string>
+    <string name="year4">猪</string>
+    <string name="year5">鼠</string>
+    <string name="year6">牛</string>
+    <string name="year7">虎</string>
+    <string name="year8">兔</string>
+    <string name="year9">龙</string>
+    <string name="year10">蛇</string>
+    <string name="year11">马</string>
+    <string name="year12">绵羊</string>
+
+    <string name="zodiac">生肖</string>
+    <string name="capricorn">摩羯座</string>
+    <string name="aquarius">水瓶座</string>
+    <string name="pisces">双鱼座</string>
+    <string name="aries">白羊座</string>
+    <string name="taurus">金牛座</string>
+    <string name="gemini">双子座</string>
+    <string name="cancer">巨蟹座</string>
+    <string name="leo">狮子座</string>
+    <string name="virgo">处女座</string>
+    <string name="libra">天秤座</string>
+    <string name="scorpio">天蝎座</string>
+    <string name="sagittarius">射手座</string>
+    <string name="moonInScorpio">属天蝎座的人</string>
+
+    <string name="events">事件</string>
+    <string name="no_event">今天没有活动或约会。</string>
+    <string name="warn_if_events_not_set">要选择和显示首选假日和活动，请访问设置</string>
+
+    <string name="sunriseSunView">日出</string>
+    <string name="middaySunView">中午</string>
+    <string name="sunsetSunView">日落</string>
+    <string name="length_of_day">白天：%1$sh%2$sm</string>
+    <string name="remaining_daylight">剩余：%1$sh%2$sm</string>
+    <string name="owghat">祷告时间</string>
+    <string name="imsak">Imsak</string>
+    <string name="fajr">晨礼</string>
+    <string name="sunrise">日出</string>
+    <string name="dhuhr">晌礼</string>
+    <string name="asr">Asr</string>
+    <string name="sunset">日落</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">宵礼</string>
+    <string name="midnight">午夜</string>
+
+    <string name="spring_equinox">春分时间每年%1$s:%2$s</string>
+
+    <!--Date Converter-->
+    <string name="select_type_date">选择日期</string>
+    <string name="year">年</string>
+    <string name="select_year">选择年份</string>
+    <string name="month">月</string>
+    <string name="select_month">选择月份</string>
+    <string name="day">日</string>
+    <string name="select_day">选择日期</string>
+    <string name="date_exception">"输入的日期无效。"</string>
+
+    <!--Compass-->
+    <string name="compass_not_found">找不到罗盘传感器</string>
+    <string name="calibrate_compass_summary">为了提高罗盘传感器的精度，手机远离任何磁性物体，在每个轴上来回倾斜和旋转设备。</string>
+    <string name="level">水平</string>
+    <string name="stop">停止</string>
+    <string name="resume">重来</string>
+    <string name="set_location">为了定位精准，在设置中设置位置</string>
+
+    <string name="north">北</string>
+    <string name="east">东</string>
+    <string name="south">南</string>
+    <string name="west">西</string>
+    <string name="qibla">朝向</string>
+
+    <!-- Settings -->
+    <string name="pref_header_interface_calendar">界面日历</string>
+    <string name="pref_header_widget_location">工具通知</string>
+    <string name="pref_header_location_athan">位置</string>
+
+    <!--Interface and Calendar Settings-->
+    <string name="pref_interface">接口</string>
+    <string name="language">语言</string>
+    <string name="skin">换肤</string>
+    <string name="select_skin">选择肤色</string>
+    <string name="persian_digits">波斯语数字</string>
+    <string name="enable_persian_digits">启用波斯语</string>
+
+    <string name="events_summary">显示事件</string>
+    <string name="show_device_calendar_events">个人日历事件</string>
+    <string name="show_device_calendar_events_summary">显示个人日历事件</string>
+    <string name="calendars_priority">优先级</string>
+    <string name="calendars_priority_summary">设置日历以显示或隐藏</string>
+    <string name="astronomical_info">天文信息</string>
+    <string name="astronomical_info_summary">"显示额外的信息，如星座，古代名称的年份和月亮在天蝎座"</string>
+    <string name="week_of_year">年的一周</string>
+    <string name="week_of_year_summary">日历上显示一年中的一周</string>
+    <string name="week_start">周开始时间</string>
+    <string name="week_start_summary">选择周开始日期</string>
+    <string name="week_ends">周末</string>
+    <string name="week_ends_summary">选择周末天数</string>
+    <string name="islamic_offset">伊斯兰</string>
+    <string name="islamic_offset_summary">增加数字来调整伊斯兰日历</string>
+    <string name="clock_in_24">24小时</string>
+    <string name="showing_clock_in_24">24小时后显示</string>
+
+    <!--Widget and Notification Settings-->
+    <string name="widget_text_color">文本颜色</string>
+    <string name="select_widgets_text_color">自定义颜色</string>
+    <string name="clock_on_widget">小部件时钟</string>
+    <string name="showing_clock_on_widget">小部件上显示时钟</string>
+    <string name="iran_time">伊朗时间</string>
+    <string name="showing_iran_time">伊朗时区的小工具和通知</string>
+    <string name="customize_widget">小工具定制</string>
+    <string name="which_one_to_show">展示内容</string>
+    <string name="customize_widget_summary">从通知和小部件中显示</string>
+    <string name="ask_user_to_set_location">设置位置以查看此处的祈祷时间</string>
+    <string name="notify_date">启用日期通知</string>
+    <string name="enable_notify">所有日期类型通知</string>
+    <string name="notify_date_lock_screen">锁屏上显示通知</string>
+    <string name="notify_date_lock_screen_summary">仅当设置了锁屏安全方法时。</string>
+
+    <!--Location and Athan-->
+    <string name="gps_location">从GPS或网络获取位置</string>
+    <string name="gps_location_help">如果可能，则不需要其他选项</string>
+    <string name="gps_internet_desc">"请启用设备的GPS和互联网连接以找到您的位置。
+程序只需要一次"</string>
+    <string name="pleasewaitgps">请稍候…一分钟后什么也没有出现，您可能应该尝试其他选择</string>
+    <string name="location">位置</string>
+    <string name="location_help">如果没有，请在下面指定</string>
+    <string name="latitude">纬度</string>
+    <string name="longitude">经度</string>
+    <string name="altitude">海拔</string>
+    <string name="altitude_praytime">单位：米（可选）</string>
+
+    <string name="athan">Athan</string>
+    <string name="in_city_time">in</string>
+    <string name="pray_methods">计算方法</string>
+    <string name="pray_methods_calculation">祈祷次数和气拔罗盘的计算方法</string>
+    <string name="athan_gap">Athan差距</string>
+    <string name="athan_gap_summary">提醒应在Athan前多久触发（分钟）</string>
+    <string name="athan_alarm">Athan提醒</string>
+    <string name="athan_alarm_summary">祈祷提醒</string>
+    <string name="notification_athan">Athan消息</string>
+    <string name="enable_notification_athan">显示Athan作为通知和设备振动</string>
+    <string name="ascending_athan_volume">上升Athan体积</string>
+    <string name="enable_ascending_athan_volume">Athan音量在一分钟内达到最大值</string>
+    <string name="custom_athan">选择Athan</string>
+    <string name="default_athan_name">Abdul-Basit Abdel-Samad</string>
+    <string name="custom_notification_is_set">自定义通知</string>
+
+    <string name="default_athan">默认Athan</string>
+    <string name="default_athan_summary">恢复默认Athan</string>
+    <string name="returned_to_default">恢复默认值</string>
+    <string name="athan_volume">Athan音量</string>
+    <string name="athan_volume_summary">设置提示音量</string>
+
+    <string name="athan_disabled_summary">要设置Athan提醒，请选择一个位置或输入上面的坐标</string>
+
+    <!--Permissions-->
+    <string name="location_access">位置访问</string>
+    <string name="phone_location_required">应用程序需要位置权限，如果选择拒绝，则必须手动输入纬度和经度。</string>
+    <string name="calendar_access">日历访问</string>
+    <string name="phone_calendar_required">应用程序需要日历权限，如果你允许，个人活动将显示在日历上。</string>
+
+    <!--About-->
+    <string name="gpl_logo">GPL标志</string>
+    <string name="version">Version %1$s</string>
+    <string name="about_license">许可</string>
+    <string name="about_license_title">程序许可</string>
+    <string name="about_license_sum">检查GPL3许可证和其他波斯日历上使用的许可条款。</string>
+    <string name="about_license_dialog_close">关闭</string>
+
+    <string name="about_support_developers">设备支持</string>
+    <string name="about_report_bug">报告</string>
+    <string name="about_report_bug_sum">Preferred bug reporting or requesting for new feature, needs a GitHub account</string>
+    <string name="about_sendMail">邮箱</string>
+    <string name="about_email_sum">发送个人电子邮件</string>
+    <string name="about_noClient">未安装邮件客户端</string>
+    <string name="about_developers">开发者</string>
+
+    <!--TalkBack, a11y-->
+    <string name="previous_month">上个月</string>
+    <string name="next_month">下一个月</string>
+    <string name="week_days_name_column">%1$s 天表中的列</string>
+    <string name="equivalent_to">相当</string>
+    <string name="holiday_reason">因为</string>
+    <string name="nth_week_of_year">%1$s week of year</string>
+
+    <!-- New additions, to be categorized, keep the section on your translation -->
+    <string name="empty" />
+    <string name="shift_work_settings">工作设置</string>
+    <string name="remove">删除</string>
+    <string name="shift_work_starting_date">%1$s, 选择轮班开始日.</string>
+    <string name="shift_work_starting_date_edit">%1$s, 已选择开始白班.</string>
+    <string name="shift_work_reset_button">禁用或重新编程</string>
+    <string name="n_minutes">%1$s minutes</string>
+    <string name="n_hours">%1$s hours</string>
+    <string name="n_minutes_and_hours">%1$s hours and %2$s minutes</string>
+    <string name="device_info">设备信息</string>
+    <string name="center_align_widgets_summary">居中对齐4x1和2x2小部件</string>
+    <string name="center_align_widgets">居中对齐</string>
+    <string name="n_till">%1$s till to %2$s</string>
+    <string name="shift_work_record_title">%1$s day(s) %2$s</string>
+    <string name="recurs">重复</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+    <string name="shift_work_days_head">长度</string>
+    <string name="prefer_linear_date_summary">使用2000/1/1代替2000年1月1日</string>
+    <string name="prefer_linear_date">喜欢日期的数字形式</string>
+    <string name="month_overview">本月事件</string>
+    <string name="map">地图</string>
+    <string name="widget_background_color">控件背景色</string>
+    <string name="select_widgets_background_color">自定义控件背景颜色</string>
+    <string name="share">分享</string>
+
+    <string name="privacy_exit">看看</string>
+    <string name="privacy_agree">同意</string>
+    <string name="users_note">用户须知</string>
+    <string name="privacy_tips_key1">《用户协议》</string>
+    <string name="privacy_tips_key2">《隐私政策》</string>
+    <string name="privacy_tips">欢迎使用 Persian Calendar ！为了保护您的隐私和使用安全，请您务必仔细阅读我们的《用户协议》和《隐私政策》。在确认充分理解并同意后再开始使用此应用。感谢！</string>
+    <string name="confirmed">用户须知已确认</string>
+    <string name="opt_terms">用户协议</string>
+    <string name="opt_privacy">隐私政策</string>
+
+
+</resources>

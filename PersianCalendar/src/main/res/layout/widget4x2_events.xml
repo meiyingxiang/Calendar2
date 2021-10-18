@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textPlaceholder2_4x2"
+        style="@style/WidgetTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/holiday_4x2"
+        style="@style/WidgetTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/widget_holiday"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/event_4x2"
+        style="@style/WidgetTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="13sp" />
+
+</merge>

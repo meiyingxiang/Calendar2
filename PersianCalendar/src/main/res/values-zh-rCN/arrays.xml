@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeNames">
+        <item>默认</item>
+        <item>明亮</item>
+        <item>深色</item>
+        <item>时新</item>
+        <item>天蓝</item>
+    </string-array>
+
+    <string-array name="prayMethodsNames">
+        <item>什叶岛，伊萨纳阿什里，莱瓦研究所，昆士兰</item>
+        <item>世界穆斯林联盟</item>
+        <item>北美伊斯兰协会ا</item>
+        <item>测量</item>
+        <item>麦加乌姆古拉大学</item>
+        <item>卡拉奇伊斯兰科学大学</item>
+        <item>德黑兰大学地球物理研究所</item>
+    </string-array>
+
+    <string-array name="prayerTimeNames">
+        <item>Morning</item>
+        <item>Dhohr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+
+    <string-array name="holidays_types">
+        <item>ا伊朗节日</item>
+        <item>伊斯兰教活动</item>
+        <item>古代伊朗的活动</item>
+        <item>其他伊朗的活动</item>
+        <item>国际活动</item>
+        <item>阿富汗假日</item>
+        <item>其他阿富汗事件</item>
+    </string-array>
+
+    <string-array name="calendar_type">
+        <item>日历</item>
+        <item>伊斯兰日历</item>
+        <item>公历</item>
+    </string-array>
+
+    <string-array name="calendar_type_abbr">
+        <item>太阳伊斯兰历</item>
+        <item>伊斯兰日历</item>
+        <item>公历</item>
+    </string-array>
+
+    <string-array name="week_days">
+        <item>六</item>
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+    </string-array>
+
+    <string-array name="what_to_show">
+        <item>其他日历</item>
+        <item>非休息日和通知</item>
+        <item>礼拜时间和通知（设置时）</item>
+        <item>场所、礼拜时间和通知（设置的情况）</item>
+    </string-array>
+
+    <string-array name="islamicOffsetNames">
+        <item>2-</item>
+        <item>1-</item>
+        <item>0</item>
+        <item>1+</item>
+        <item>2+</item>
+    </string-array>
+
+    <string-array name="shift_work">
+        <item>晌班</item>
+        <item>休息</item>
+        <item>晚班</item>
+        <item>夜班</item>
+    </string-array>
+
+</resources>
